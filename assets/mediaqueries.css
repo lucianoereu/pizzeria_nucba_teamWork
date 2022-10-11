@@ -1,0 +1,22 @@
+/* hero */
+@media (max-width: 992px) {
+    #hero {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+      .hero-info h1 {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+      }
+}
+@media (max-width: 576px){
+    .hero-info p {
+        width: 70%;
+        max-width: unset;
+      }
+    
+}
