@@ -1,0 +1,9 @@
+:root {
+    /* paleta de colores */
+    --background: #252525;
+    --yellow: #FFA400;
+    --red: #FC2933;
+    --white: #FFFFFF;
+    --gradient:background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+
+}
