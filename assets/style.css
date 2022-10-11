@@ -7,3 +7,12 @@
     --gradient:background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:Montserrat;
+}
