@@ -1,10 +1,12 @@
 :root {
     /* paleta de colores */
-    --background: #252525;
+    --background: #131415;
+    --black:#252525;
+
     --yellow: #FFA400;
     --red: #FC2933;
     --white: #FFFFFF;
-    --gradient:background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    --gradient: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 
 }
 
@@ -14,5 +16,92 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family:Montserrat;
+    font-family: 'Montserrat';
+    background-color: var(--background);
+}
+
+/* seccion hero */
+
+#hero{
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero h1{
+position: absolute;
+width: 603px;
+height: 93px;
+left: 127px;
+top: 180px;
+font-style: normal;
+color: var(--white);
+font-weight: 700;
+font-size: 66px;
+line-height: 131.02%;
+}
+
+.hero-info{
+display: flex;
+flex-direction: column;
+position: absolute;
+width: 639px;
+height: 118px;
+left: 127px;
+top: 265px;
+color: var(--white);
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 131.02%;
+gap: 25px;
+}
+.hero-info p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 131.02%;
+    letter-spacing: 1.5px;
+}
+
+.hero-info a{
+width: 150px;
+height: 50px;
+color: var(--white);
+font-size: 14px;
+font-weight: 700;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.5px;
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+/* Drop Shadow */
+box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+border-radius: 15px;
+}
+/* pizzas */
+.hero-img{
+    display: flex;
+}
+.hero-pizza{
+position: absolute;
+width: 265px;
+height: 265px;
+left: 920px;
+top: 208px;
+background: url(image.png);
+}
+.hero-pizza1{
+    position: absolute;
+width: 392px;
+height: 392px;
+left: 1046px;
+top: 94px;
+background: url(pizza.png);
 }
