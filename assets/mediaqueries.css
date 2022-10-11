@@ -1,0 +1,28 @@
+/* hero */
+@media (max-width: 992px) {
+    #hero {
+    max-width: 100%;
+    font-size: small;
+       
+}
+}
+@media (max-width: 576px){
+
+    #hero {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+        display: flex;
+        flex-direction: row;
+      }
+    .hero h1{
+        font-size: medium;
+    }
+    .hero-info p {
+        width: 70%;
+        max-width: unset;
+      }
+    
+}

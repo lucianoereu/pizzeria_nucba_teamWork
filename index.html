@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="assets/stylus.css">
+   <!-- mediaQ -->
+   <link rel="stylesheet" href="./assets/mediaqueries.css">
+    <!-- tipo de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>NucbaZappi</title>
 </head>
 <body>
@@ -20,120 +26,122 @@
                 <div class="hero-info">
                     <h2>tenes Nucba.</h2>
                     <p>Busca lo que quieras, <span>Nucba</span> te quedes sin comida</p>
+                    <a href="#">VER MAS</a>
                 </div>
-            <a href="#">VER MAS</a>
     </div>
-    <img src="./assets/img/image 34.png" alt="pizza">
-    <img src="./assets/img/pizza 1.png" alt="pizza1">
-   
-      </main>
+        <div class="hero-img">
+            <img class="hero-pizza" src="./assets/img/image 34.png" alt="pizza">
+            <img  class="hero-pizza1" src="./assets/img/pizza 1.png" alt="pizza1">
+        </div>
     </section>
-
+    
+    <!-- populares -->
     <section id="populares">
 
-    <h3 class="populares_title">Las más populares</h3>
-
-    <div class="populares">
-
-       <div class="populares_item">
-           <img src="assets/img/pizza1.jpg" alt="pizza1">
-           <div class="populares_info">
-              <h3>La Mr. Pit</h3>
-              <p>solo para expertos</p>
-              <div class="item__precios">
-                <span>$340</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-       
-       <div class="populares_item">
-           <img src="assets/img/pizza2.jpg" alt="pizza2">
-           <div class="populares_info">
-              <h3>¡Q’ Jamone!</h3>
-              <p>c/jamón crudo</p>
-              <div class="item__precios">
-                <span>$340</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-
-       <div class="populares_item">
-           <img src="assets/img/pizza3.jpg" alt="pizza3">
-           <div class="populares_info">
-              <h3>La Charly García</h3>
-              <p>¡BASTA!</p>
-              <div class="item__precios">
-                <span>$380</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-
-       <div class="populares_item">
-           <img src="assets/img/pizza4.jpg" alt="pizza4">
-           <div class="populares_info">
-              <h3>La Maradona</h3>
-              <p>¡Eterna!</p>
-              <div class="item__precios">
-                <span>$450</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-
-       <div class="populares_item">
-           <img src="assets/img/pizza5.jpg" alt="pizza5">
-           <div class="populares_info">
-              <h3>Picantovich</h3>
-              <p>Pica 2 veces</p>
-              <div class="item__precios">
-                <span>$750</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-
-       <div class="populares_item">
-           <img src="assets/img/pizza6.jpg" alt="pizza6">
-           <div class="populares_info">
-              <h3>La Hasbulla</h3>
-              <p>En honor al 1</p>
-              <div class="item__precios">
-                <span>$990</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-
-       <div class="populares_item">
-           <img src="assets/img/pizza7.jpg" alt="pizza7">
-           <div class="populares_info">
-              <h3>Leo Messi</h3>
-              <p>¡De pié señores!</p>
-              <div class="item__precios">
-                <span>$10</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-
-       <div class="populares_item">
-           <img src="assets/img/pizza8.jpg" alt="pizza8">
-           <div class="populares_info">
-              <h3>Nick Gi</h3>
-              <p>La que desaparece</p>
-              <div class="item__precios">
-                <span>Gratis</span>
-                <span>Agregar</span>
-              </div>
-            </div>
-       </div>
-      
-      </div>
-
-   </section>
-
+        <h3 class="populares_title">Las más populares</h3>
+    
+        <div class="populares">
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza1.jpg" alt="pizza1">
+               <div class="populares_info">
+                  <h3>La Mr. Pit</h3>
+                  <p>solo para expertos</p>
+                  <div class="item__precios">
+                    <span>$340</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+           
+           <div class="populares_item">
+               <img src="assets/img/pizza2.jpg" alt="pizza2">
+               <div class="populares_info">
+                  <h3>¡Q’ Jamone!</h3>
+                  <p>c/jamón crudo</p>
+                  <div class="item__precios">
+                    <span>$340</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza3.jpg" alt="pizza3">
+               <div class="populares_info">
+                  <h3>La Charly García</h3>
+                  <p>¡BASTA!</p>
+                  <div class="item__precios">
+                    <span>$380</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza4.jpg" alt="pizza4">
+               <div class="populares_info">
+                  <h3>La Maradona</h3>
+                  <p>¡Eterna!</p>
+                  <div class="item__precios">
+                    <span>$450</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza5.jpg" alt="pizza5">
+               <div class="populares_info">
+                  <h3>Picantovich</h3>
+                  <p>Pica 2 veces</p>
+                  <div class="item__precios">
+                    <span>$750</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza6.jpg" alt="pizza6">
+               <div class="populares_info">
+                  <h3>La Hasbulla</h3>
+                  <p>En honor al 1</p>
+                  <div class="item__precios">
+                    <span>$990</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza7.jpg" alt="pizza7">
+               <div class="populares_info">
+                  <h3>Leo Messi</h3>
+                  <p>¡De pié señores!</p>
+                  <div class="item__precios">
+                    <span>$10</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+    
+           <div class="populares_item">
+               <img src="assets/img/pizza8.jpg" alt="pizza8">
+               <div class="populares_info">
+                  <h3>Nick Gi</h3>
+                  <p>La que desaparece</p>
+                  <div class="item__precios">
+                    <span>Gratis</span>
+                    <span>Agregar</span>
+                  </div>
+                </div>
+           </div>
+          
+          </div>
+    
+       </section>
+</main>
+    
 </body>
 </html>
