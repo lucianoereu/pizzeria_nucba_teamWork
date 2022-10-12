@@ -224,6 +224,7 @@ background: url(pizza.png);
     color: var(--white);
 }
 
+
 .item__precios span:first-child {
     background: var(--gradient);
     -webkit-background-clip: text;
