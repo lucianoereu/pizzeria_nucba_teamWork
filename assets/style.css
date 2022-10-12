@@ -95,7 +95,7 @@ border-radius: 15px;
 position: absolute;
 width: 265px;
 height: 265px;
-left: 920px;
+left: 830px;
 top: 208px;
 background: url(image.png);
 }
@@ -103,8 +103,8 @@ background: url(image.png);
     position: absolute;
 width: 392px;
 height: 392px;
-left: 1046px;
-top: 94px;
+left: 960px;
+top: 100px;
 background: url(pizza.png);
 }
 
