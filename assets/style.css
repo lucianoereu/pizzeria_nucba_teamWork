@@ -22,29 +22,31 @@
 body{
     background: var(--background);
 }
+main{
+    display: flex;
+    flex-direction: column;
+   
+   
+    width: 100%;
+}
 /* seccion hero */
 
 #hero{
+    right: 90px;
     margin-top: 65px;
-    margin-bottom: 60px;
-    padding: 170px 0;
+    padding: 100px;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:baseline;
 }
 .hero {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     width: 50%;
 }
 .hero h1{
-position: absolute;
-width: 603px;
-height: 93px;
-left: 127px;
-top: 180px;
 font-style: normal;
 color: var(--white);
 font-weight: 700;
@@ -55,23 +57,19 @@ line-height: 131.02%;
 .hero-info{
 display: flex;
 flex-direction: column;
-position: absolute;
-width: 639px;
-height: 118px;
-left: 127px;
-top: 265px;
 color: var(--white);
 font-style: normal;
 font-weight: 700;
 font-size: 35px;
 line-height: 131.02%;
-gap: 25px;
+gap: 30px;
 }
 
 .hero-info p{
-    font-size: 15px;
+    width: 600px;
+    font-size: 20px;
     font-weight: 300;
-    line-height: 131.02%;
+    line-height: 181.02%;
     letter-spacing: 1.5px;
 }
 
