@@ -144,7 +144,8 @@ background: url(pizza.png);
     justify-content: center;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 500px;
+    margin-bottom: 100px;
 }
 
 .populares {
@@ -159,7 +160,7 @@ background: url(pizza.png);
 }
 
 .populares_title {
-    color: var(--blanco);
+    color: var(--white);
     display: flex;
     justify-content: flex-start;
     font-size: 22px;
@@ -175,7 +176,7 @@ background: url(pizza.png);
     height: 212px;
     width: 283px;
     border-radius: 16px;
-    background-color: #252525;
+    background-color: var(--black);
     box-shadow: 0 48px 128px rgba(0, 0, 0, .4);
 }
 
@@ -185,6 +186,8 @@ background: url(pizza.png);
     flex-direction: column;
     justify-content: space-around;
     gap: 5px;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .populares_info h3 {
@@ -193,7 +196,7 @@ background: url(pizza.png);
 }
 
 .populares_info p {
-    color: var(--blanco);
+    color: var(--white);
     opacity: .4;
     font-size: 14px;
     font-weight: 100;
@@ -218,11 +221,11 @@ background: url(pizza.png);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: var(--white);
 }
 
 .item__precios span:first-child {
-    background: var(--gradiente);
+    background: var(--gradient);
     -webkit-background-clip: text;
         background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -231,7 +234,7 @@ background: url(pizza.png);
 }
 
 .item__precios span:last-child {
-    background: var(--gradiente);
+    background: var(--gradient);
     padding: 3px 15px;
     border-radius:  15px;
     font-weight: 500;
