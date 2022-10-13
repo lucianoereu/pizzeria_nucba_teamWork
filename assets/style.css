@@ -117,8 +117,8 @@ box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
 border-radius: 15px;
 }
 .hero-info a:hover {
-    transform: scale(1.1);
-    
+    transform: scale(1.1) ;
+
   }
 /* pizzas */
 .hero-img{
