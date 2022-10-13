@@ -156,12 +156,11 @@ main {
 }
 
 #categorias h3 {
-  text-align: left;
+  margin-top: 10px;
   height: 20px;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 131.02%;
   margin-bottom: 35px;
   color: #ffffff;
   font-family: "Montserrat";
@@ -170,7 +169,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
 }
 .category {
   border: none;
