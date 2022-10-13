@@ -142,22 +142,16 @@ background: url(pizza.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    margin: 80px;
-    padding: 40px 0;
+    padding: 20px 0;
     max-width: 1200px;
     width: 100%;
   }
   
   #categorias h3 {
-    margin-top: 10px;
-    height: 20px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    margin-bottom: 35px;
-    color: #ffffff;
-    font-family: "Montserrat";
+    color: var(--white);
+    margin: 0 0 10px 80px;
+    font-size: 22px;
+    font-weight: 600;
   }
   .categories {
     display: flex;
