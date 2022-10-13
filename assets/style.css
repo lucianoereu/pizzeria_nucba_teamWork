@@ -17,31 +17,65 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Montserrat';
-    background-color: var(--background);
+}
+body{
+    background: var(--background);
+}
+/* nav */
+header {
+    margin-top: 20px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
 }
 
+header img {
+    height: 70%;
+}
+
+nav {
+    padding: 0 20px 0 0;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    color: #FFA100;
+}
+
+.nav-links:hover {
+    color: #be8015;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 /* seccion hero */
 
 #hero{
+    right: 90px;
     margin-top: 65px;
-    padding: 70px 0;
+    padding: 100px;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:baseline;
 }
 .hero {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     width: 50%;
 }
 .hero h1{
-position: absolute;
-width: 603px;
-height: 93px;
-left: 127px;
-top: 180px;
 font-style: normal;
 color: var(--white);
 font-weight: 700;
@@ -52,23 +86,19 @@ line-height: 131.02%;
 .hero-info{
 display: flex;
 flex-direction: column;
-position: absolute;
-width: 639px;
-height: 118px;
-left: 127px;
-top: 265px;
 color: var(--white);
 font-style: normal;
 font-weight: 700;
 font-size: 35px;
 line-height: 131.02%;
-gap: 25px;
+gap: 30px;
 }
 
 .hero-info p{
-    font-size: 15px;
+    width: 600px;
+    font-size: 20px;
     font-weight: 300;
-    line-height: 131.02%;
+    line-height: 181.02%;
     letter-spacing: 1.5px;
 }
 
@@ -94,7 +124,7 @@ border-radius: 15px;
 position: absolute;
 width: 265px;
 height: 265px;
-left: 920px;
+left: 830px;
 top: 208px;
 background: url(image.png);
 }
@@ -102,8 +132,8 @@ background: url(image.png);
     position: absolute;
 width: 392px;
 height: 392px;
-left: 1046px;
-top: 94px;
+left: 960px;
+top: 100px;
 background: url(pizza.png);
 }
 
@@ -114,7 +144,8 @@ background: url(pizza.png);
     justify-content: center;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 500px;
+    margin-bottom: 100px;
 }
 
 .populares {
@@ -129,7 +160,7 @@ background: url(pizza.png);
 }
 
 .populares_title {
-    color: var(--blanco);
+    color: var(--white);
     display: flex;
     justify-content: flex-start;
     font-size: 22px;
@@ -145,7 +176,7 @@ background: url(pizza.png);
     height: 212px;
     width: 283px;
     border-radius: 16px;
-    background-color: #252525;
+    background-color: var(--black);
     box-shadow: 0 48px 128px rgba(0, 0, 0, .4);
 }
 
@@ -155,6 +186,8 @@ background: url(pizza.png);
     flex-direction: column;
     justify-content: space-around;
     gap: 5px;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .populares_info h3 {
@@ -163,7 +196,7 @@ background: url(pizza.png);
 }
 
 .populares_info p {
-    color: var(--blanco);
+    color: var(--white);
     opacity: .4;
     font-size: 14px;
     font-weight: 100;
@@ -188,11 +221,12 @@ background: url(pizza.png);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: var(--white);
 }
 
+
 .item__precios span:first-child {
-    background: var(--gradiente);
+    background: var(--gradient);
     -webkit-background-clip: text;
         background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -201,10 +235,38 @@ background: url(pizza.png);
 }
 
 .item__precios span:last-child {
-    background: var(--gradiente);
+    background: var(--gradient);
     padding: 3px 15px;
     border-radius:  15px;
     font-weight: 500;
     font-size: 14px;
 }
 
+/* footer */
+
+footer {
+    margin-top: 45px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+}
+footer span{
+    font-weight: 600;
+}
+.footer-links {
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.footer-links a{
+    color: var(--white);
+}
+ 

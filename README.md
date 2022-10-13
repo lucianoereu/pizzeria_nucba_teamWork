@@ -15,3 +15,4 @@
 #### Cristian Banzan
 #### Alejo Alvarez
 #### Luciano Ereu
+#### Rocio Gonzalez
