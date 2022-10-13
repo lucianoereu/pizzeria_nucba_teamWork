@@ -151,7 +151,7 @@ background: url(pizza.png);
     justify-content: flex-start;
     flex-direction: row;
     padding: 60px;
-    gap: 64px;
+    gap: 20px;
   }
   /* SUBTITULO */
   .recomendados {
@@ -183,7 +183,7 @@ background: url(pizza.png);
   .card-info {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     width: 70%;
     gap: 10px;
