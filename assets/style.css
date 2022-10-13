@@ -149,7 +149,7 @@ background: url(pizza.png);
   
   #categorias h3 {
     color: var(--white);
-    margin: 0 0 10px 80px;
+    margin: 0 0 10px 120px;
     font-size: 22px;
     font-weight: 600;
   }
