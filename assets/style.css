@@ -67,8 +67,8 @@ main{
     max-width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items:baseline;
+    justify-content: space-around;
+    align-items: baseline;
 }
 .hero {
     display: flex;
@@ -149,25 +149,26 @@ background: url(pizza.png);
     margin: 80px;
     padding: 40px 0;
     max-width: 1200px;
-  }
+}
   
-  #categorias h3 {
+#categorias h3 {
     margin: 10px auto 35px 10px;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     color: #ffffff;
     font-family: "Montserrat";
-  }
+}
 
 .categories {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 1200px;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
 }
-  .category {
+
+.category {
     border: none;
     width: 115px;
     height: 115px;

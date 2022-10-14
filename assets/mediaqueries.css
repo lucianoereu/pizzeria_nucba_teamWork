@@ -1,10 +1,9 @@
 /* hero */
 @media (max-width: 992px) {
-    #hero {
+#hero {
     max-width: 100%;
     font-size: small;       
 }
-
 .hero{
     width: 100%;
 }
@@ -21,13 +20,24 @@
 .hero-info p{
     font-size: 10px;
 }
-
-img{
+.hero-img img {
     display: none;
 }
+.populares_title {
+    justify-content: center;
 }
+}
+
+
 @media (max-width: 585px) {
+    header {
+        margin-top: unset;
+        height: 60px;
+    }
     .populares_item {
         width: 70%;
+    }
+    .footer-links {
+        flex-direction: column;
     }
 }
