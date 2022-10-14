@@ -25,6 +25,55 @@
 .hero-img img{
     display: none;
 }
+/* recomendados */
+.card-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 800;
+    opacity: 0.8;
+    letter-spacing: 3px;
+  }
+  .card-padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-recomendaciones {
+    height: 150px;
+    width: 600px;
+    gap: 10px;
+  }
+  .card-info {
+    gap: 22px;
+  }
+  .card-info h4 {
+    font-size: 27px;
+  }
+  .card-info p {
+    font-size: 20px;
+  }
+  .card-info span {
+    font-size: 27px;
+    letter-spacing: 6px;
+  }
+  img {
+    width: 90px;
+  }
+  .div-img {
+    padding: 0px 20px;
+  }
+  .agregar span {
+    width: 100px;
+    height: 40px;
+  }
+
+/* popu */
 .populares_title {
     justify-content: center;
 }
@@ -40,6 +89,26 @@ header {
 .hero-info p{
     width: 100%;
 }
+/* recomendados */
+.card-recomendaciones {
+    height: 130px;
+    width: 500px;
+  }
+  .card-info {
+    gap: 10px;
+  }
+  .card-info h4 {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+  .card-info p {
+    font-size: 17px;
+    letter-spacing: 4px;
+  }
+  .card-info span {
+    font-size: 23p
+  }
+  /* popu */
 .populares_item {
     width: 70%;
 }
