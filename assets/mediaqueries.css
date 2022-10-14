@@ -1,33 +1,46 @@
 /* hero */
 @media (max-width: 992px) {
-    #hero {
+  #hero {
     max-width: 100%;
-    font-size: small;       
-}
+    font-size: small;
+  }
 
-.hero{
+  .hero {
     width: 100%;
-}
-.hero h1{
+  }
+  .hero h1 {
     width: 100%;
     font-size: 40px;
-}
-.hero-info{
+  }
+  .hero-info {
     width: 80%;
-}
-.hero-info h2{
+  }
+  .hero-info h2 {
     font-size: 40px;
-}
-.hero-info p{
+  }
+  .hero-info p {
     font-size: 10px;
-}
+  }
 
-img{
+  img {
     display: none;
-}
+  }
+  /* categories*/
+  .categories {
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+  .category {
+    width: 120px;
+  }
 }
 @media (max-width: 585px) {
-    .populares_item {
-        width: 70%;
-    }
+  .categories {
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .populares_item {
+    width: 70%;
+  }
 }
