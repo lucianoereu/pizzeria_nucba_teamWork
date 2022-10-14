@@ -25,9 +25,21 @@
 .hero-img img{
     display: none;
 }
+.populares_title {
+    justify-content: center;
 }
+}
+
+
 @media (max-width: 585px) {
-    .populares_item {
-        width: 70%;
-    }
+header {
+    margin-top: unset;
+    height: 60px;
+}
+.populares_item {
+    width: 70%;
+}
+.footer-links {
+    flex-direction: column;
+}
 }
