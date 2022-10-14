@@ -6,20 +6,22 @@
 }
 
 .hero{
-    width: 100%;
+    width: 80%;
 }
 .hero h1{
-    width: 100%;
+    width: 80%;
     font-size: 40px;
 }
 .hero-info{
-    width: 80%;
+    width: 60%;
 }
 .hero-info h2{
     font-size: 40px;
+    width: 80%;
 }
 .hero-info p{
     font-size: 10px;
+    width: 40%;
 }
 
 .hero-img img{
@@ -63,7 +65,7 @@ h2 {
     font-size: 27px;
     letter-spacing: 6px;
 }
-img {
+.div-img {
     width: 90px;
 }
 .div-img {
@@ -72,6 +74,15 @@ img {
 .agregar span {
     width: 100px;
     height: 40px;
+}
+
+/* categories*/
+.categories {
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.category {
+    width: 120px;
 }
 
 /* popu */
@@ -108,6 +119,12 @@ header {
 }
 .card-info span {
     font-size: 23p
+}
+/* category */
+.categories {
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
 }
   /* popu */
 .populares_item {
