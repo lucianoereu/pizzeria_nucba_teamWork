@@ -76,22 +76,22 @@ main{
     width: 50%;
 }
 .hero h1{
-font-style: normal;
-color: var(--white);
-font-weight: 700;
-font-size: 66px;
-line-height: 131.02%;
+    font-style: normal;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 131.02%;
 }
 
 .hero-info{
-display: flex;
-flex-direction: column;
-color: var(--white);
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 131.02%;
-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 131.02%;
+    gap: 30px;
 }
 
 .hero-info p{
@@ -103,66 +103,67 @@ gap: 30px;
 }
 
 .hero-info a{
-width: 150px;
-height: 50px;
-color: var(--white);
-font-size: 14px;
-font-weight: 700;
-line-height: 47px;
-text-align: center;
-letter-spacing: 0.5px;
+    width: 150px;
+    height: 50px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.5px;
 background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 /* Drop Shadow */
-box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
-border-radius: 15px;
+    box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+    border-radius: 15px;
 }
 .hero-info a:hover {
-    transform: scale(1.1) ;
+    transform:  scale(1.1) ;
+    
+}
 
-  }
 /* pizzas */
 .hero-img{
     display: flex;
 }
 .hero-pizza{
-position: absolute;
-width: 265px;
-height: 265px;
-left: 830px;
-top: 208px;
-background: url(image.png);
+    position: absolute;
+    width: 265px;
+    height: 265px;
+    left: 830px;
+    top: 208px;
+    background: url(image.png);
 }
 .hero-pizza1{
     position: absolute;
-width: 392px;
-height: 392px;
-left: 960px;
-top: 100px;
-background: url(pizza.png);
+    width: 392px;
+    height: 392px;
+    left: 960px;
+    top: 100px;
+    background: url(pizza.png);
 }
 
 /* recomendados */
 #recomendaciones {
-   margin: auto;
-  }
+    margin: auto;
+}
   /* CONTENEDOR PADRE */
-  .card-padre {
+.card-padre {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     padding: 60px;
     gap: 20px;
-  }
+}
   /* SUBTITULO */
-  .recomendados {
+.recomendados {
     font-family: "montserrat";
     font-weight: 500;
     font-size: 22px;
     color: #ffff;
     padding: 0px 20px;
-  }
+}
   /* CARDS */
-  .card-recomendaciones {
+.card-recomendaciones {
     background-color: var(--black);
     width: 347px;
     height: 103px;
@@ -172,45 +173,45 @@ background: url(pizza.png);
     gap: 10px;
     border-radius: 15px;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
-  }
-  .div-img {
+}
+.div-img {
     width: 20%;
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 0px 10px;
-  }
-  .card-info {
+}
+.card-info {
     display: flex;
     justify-content: center;
     align-items:flex-start;
     flex-direction: column;
     width: 70%;
     gap: 10px;
-  }
-  .agregar {
+}
+.agregar {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35%;
     cursor: pointer;
     padding: 0px 10px;
-  }
-  h4 {
+}
+h4 {
     font-family: "montserrat";
     font-weight: 500;
     font-size: 15px;
     color: #ffff;
-  }
-  p {
+}
+p {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.5px;
     color: #ffff;
     opacity: 0.3;
-  }
-  .card-info span {
+}
+.card-info span {
     font-weight: 700;
     font-size: 19px;
     line-height: 131.02%;
@@ -218,8 +219,8 @@ background: url(pizza.png);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-  }
-  .agregar span {
+}
+.agregar span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,25 +239,25 @@ background: url(pizza.png);
     padding: 40px 0;
     max-width: 1200px;
     margin-bottom: 20px;
-  }
-  
-  #categorias h3 {
+}
+
+#categorias h3 {
     margin: 10px auto 35px 10px;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     color: #ffffff;
     font-family: "Montserrat";
-  }
+}
 
 .categories {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
-  max-width: 1200px;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 1200px;
+    width: 100%;
 }
-  .category {
+.category {
     border: none;
     width: 115px;
     height: 115px;
@@ -268,22 +269,22 @@ background: url(pizza.png);
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s;
-  }
-  .category:hover {
+}
+.category:hover {
     transform: scale(1.1);
-  }
-  .category p {
+}
+.category p {
     text-align: center;
     left: 166px;
     top: 938px;
-  }
-  .category img {
+}
+.category img {
     width: 65px;
     height: 65px;
     left: 150px;
     top: 840px;
-  }
-  .category a {
+}
+.category a {
     color: transparent;
     padding: 1px 10px;
     font-size: 2px;
@@ -293,7 +294,7 @@ background: url(pizza.png);
     box-shadow: 0px 0px 50px rgb(20 78 90 / 20%);
     border-radius: 15px;
     text-decoration: none;
-  }
+}
 
 /* populares  */
 #populares {
@@ -429,4 +430,3 @@ footer span{
 .footer-links a{
     color: var(--white);
 }
- 
