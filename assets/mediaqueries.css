@@ -1,6 +1,6 @@
 /* hero */
 @media (max-width: 992px) {
-    #hero {
+#hero {
     max-width: 100%;
     font-size: small;       
 }
@@ -22,7 +22,7 @@
     font-size: 10px;
 }
 
-img{
+.hero-img img{
     display: none;
 }
 }
