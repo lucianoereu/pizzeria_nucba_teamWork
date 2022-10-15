@@ -101,6 +101,10 @@ header {
 .hero-info p{
     width: 100%;
 }
+.hero-info {
+    width: 80px;
+    text-align: center;
+}
 /* recomendados */
 .card-recomendaciones {
     height: 130px;
