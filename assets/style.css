@@ -67,8 +67,8 @@ main{
     max-width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items:baseline;
+    justify-content: space-around;
+    align-items: baseline;
 }
 .hero {
     display: flex;
@@ -145,14 +145,21 @@ background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
 /* recomendados */
 #recomendaciones {
     margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
   /* CONTENEDOR PADRE */
 .card-padre {
+    width: 100%;
+    margin: auto;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding: 60px;
-    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 0;
+    gap: 15px;
 }
   /* SUBTITULO */
 .recomendados {
@@ -165,26 +172,25 @@ background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
   /* CARDS */
 .card-recomendaciones {
     background-color: var(--black);
-    width: 347px;
-    height: 103px;
+    padding: 15px 10px;
+    max-width: 400px;
+    height: 100px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
     border-radius: 15px;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 }
-.div-img {
-    width: 20%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 0px 10px;
+.card-recomendaciones img {
+    width: 20%; 
+    height: 80%;
+    background-size: cover;
 }
 .card-info {
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
     width: 70%;
     gap: 10px;
@@ -197,13 +203,15 @@ background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     cursor: pointer;
     padding: 0px 10px;
 }
-h4 {
+.card-info h4 {
     font-family: "montserrat";
     font-weight: 500;
     font-size: 15px;
     color: #ffff;
+    align-items: center;
+    width: 100%;
 }
-p {
+.card-info p {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -211,6 +219,7 @@ p {
     color: #ffff;
     opacity: 0.3;
 }
+
 .card-info span {
     font-weight: 700;
     font-size: 19px;
@@ -220,6 +229,10 @@ p {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+.agregar {
+    margin-top: 5px;
+}
+
 .agregar span {
     display: flex;
     justify-content: center;
@@ -230,6 +243,8 @@ p {
     height: 28px;
     color: #fff;
 }
+
+
 /* categorias */
 #categorias {
     display: flex;
@@ -252,17 +267,16 @@ p {
 
 .categories {
     display: flex;
-    justify-content: space-between;
-    gap: 80px;
+    justify-content: space-around;
+    gap: 60px;
     max-width: 1200px;
     width: 100%;
+    flex-wrap: wrap;
 }
 .category {
     border: none;
     width: 115px;
     height: 115px;
-    left: 154px;
-    top: 846px;
     background: #252525;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
     color: #ffffff;
