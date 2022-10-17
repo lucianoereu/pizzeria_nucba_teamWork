@@ -64,6 +64,7 @@ main{
     right: 90px;
     margin-top: 65px;
     padding: 100px;
+    padding-left: 130px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
