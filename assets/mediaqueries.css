@@ -27,54 +27,49 @@
 .hero-img img{
     display: none;
 }
+
 /* recomendados */
 .card-padre {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+  }
+#recomendaciones h2 {
+letter-spacing: 3px;
 }
-h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
-    font-weight: 800;
-    opacity: 0.8;
-    letter-spacing: 3px;
-}
-.card-padre {
+  .card-padre {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.card-recomendaciones {
+  }
+  .card-recomendaciones {
     height: 150px;
     width: 600px;
     gap: 10px;
-}
-.card-info {
+  }
+  .card-info {
     gap: 22px;
-}
-.card-info h4 {
+  }
+  .card-info h4 {
     font-size: 27px;
-}
-.card-info p {
+  }
+  .card-info p {
     font-size: 20px;
-}
-.card-info span {
+  }
+  .card-info span {
     font-size: 27px;
     letter-spacing: 6px;
-}
-.div-img {
+  }
+  img {
     width: 90px;
-}
-.div-img {
+  }
+  .div-img {
     padding: 0px 20px;
-}
-.agregar span {
+  }
+  .agregar span {
     width: 100px;
     height: 40px;
-}
+  }
 
 /* categories*/
 .categories {
@@ -92,7 +87,7 @@ h2 {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 585px) {
 header {
     margin-top: unset;
     height: 60px;
@@ -101,6 +96,7 @@ header {
     padding: 0;
     width: 100%;
     text-align: center;
+    margin-bottom: 40PX;
 }
 .hero h1{
     font-size: 30px;
@@ -120,7 +116,14 @@ header {
 /* recomendados */
 .card-recomendaciones {
     height: 130px;
-    width: 250%;
+    width: 100%;
+}
+.card-padre{
+    width: 100%;
+}
+.recomendados{
+text-align:justify;
+width: 80%;
 }
 .card-info {
     gap: 10px;
@@ -134,8 +137,9 @@ header {
     letter-spacing: 4px;
 }
 .card-info span {
-    font-size: 23p
+    font-size: 23px;
 }
+
 /* category */
 .categories {
     max-width: 300px;
