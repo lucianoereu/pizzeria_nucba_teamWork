@@ -6,7 +6,7 @@
 }
 
 .hero{
-    width: 80%;
+    width: 100%;
 }
 .hero h1{
     width: 80%;
@@ -92,19 +92,31 @@ h2 {
 }
 
 
-@media (max-width: 585px) {
+@media (max-width: 320px) {
 header {
     margin-top: unset;
     height: 60px;
 }
-
+#hero{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.hero h1{
+    font-size: 30px;
+    width: 100%;
+}
+.hero-info a{
+    width: 40%;
+}
+.hero-info{
+    width: 100%;
+    align-items: center;
+}
 .hero-info p{
     width: 100%;
 }
-.hero-info {
-    width: 80px;
-    text-align: center;
-}
+
 /* recomendados */
 .card-recomendaciones {
     height: 130px;
